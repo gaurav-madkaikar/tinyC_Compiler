@@ -1,0 +1,307 @@
+< MULTILINE_COMMENT_STARTS -> 8, /* >
+
+*** Compilers lab Assignment 3
+Group No: 24
+Group Members: Gaurav Madkaikar, Girish Kumar 
+< MULTILINE_COMMENT_ENDS -> 10, */ >
+< PUNCTUATOR -> 7, "#" >
+< IDENTIFIER -> 2, include >
+< PUNCTUATOR -> 7, "<" >
+< IDENTIFIER -> 2, stdio >
+< PUNCTUATOR -> 7, "." >
+< IDENTIFIER -> 2, h >
+< PUNCTUATOR -> 7, ">" >
+< KEYWORD -> 1, typedef >
+< KEYWORD -> 1, struct >
+< IDENTIFIER -> 2, emp >
+< PUNCTUATOR -> 7, "{" >
+< KEYWORD -> 1, char >
+< PUNCTUATOR -> 7, "*" >
+< IDENTIFIER -> 2, name >
+< PUNCTUATOR -> 7, ";" >
+< KEYWORD -> 1, char >
+< PUNCTUATOR -> 7, "*" >
+< IDENTIFIER -> 2, position >
+< PUNCTUATOR -> 7, ";" >
+< KEYWORD -> 1, int >
+< IDENTIFIER -> 2, age >
+< PUNCTUATOR -> 7, ";" >
+< KEYWORD -> 1, int >
+< IDENTIFIER -> 2, yearsWorked >
+< PUNCTUATOR -> 7, ";" >
+< PUNCTUATOR -> 7, "}" >
+< IDENTIFIER -> 2, Employee >
+< PUNCTUATOR -> 7, ";" >
+< PUNCTUATOR -> 7, "#" >
+< IDENTIFIER -> 2, define >
+< IDENTIFIER -> 2, MAXPRIME >
+< INTEGER_CONST -> 3, 1000000007 >
+< KEYWORD -> 1, int >
+< IDENTIFIER -> 2, bSearch >
+< PUNCTUATOR -> 7, "(" >
+< KEYWORD -> 1, int >
+< IDENTIFIER -> 2, arr >
+< PUNCTUATOR -> 7, "[" >
+< PUNCTUATOR -> 7, "]" >
+< PUNCTUATOR -> 7, "," >
+< KEYWORD -> 1, int >
+< IDENTIFIER -> 2, l >
+< PUNCTUATOR -> 7, "," >
+< KEYWORD -> 1, int >
+< IDENTIFIER -> 2, r >
+< PUNCTUATOR -> 7, "," >
+< KEYWORD -> 1, int >
+< IDENTIFIER -> 2, key >
+< PUNCTUATOR -> 7, ")" >
+< PUNCTUATOR -> 7, "{" >
+< KEYWORD -> 1, if >
+< PUNCTUATOR -> 7, "(" >
+< IDENTIFIER -> 2, r >
+< PUNCTUATOR -> 7, ">=" >
+< IDENTIFIER -> 2, l >
+< PUNCTUATOR -> 7, ")" >
+< PUNCTUATOR -> 7, "{" >
+< KEYWORD -> 1, int >
+< IDENTIFIER -> 2, mid >
+< PUNCTUATOR -> 7, "=" >
+< IDENTIFIER -> 2, l >
+< PUNCTUATOR -> 7, "+" >
+< PUNCTUATOR -> 7, "(" >
+< IDENTIFIER -> 2, r >
+< PUNCTUATOR -> 7, "-" >
+< IDENTIFIER -> 2, l >
+< PUNCTUATOR -> 7, ")" >
+< PUNCTUATOR -> 7, "/" >
+< INTEGER_CONST -> 3, 2 >
+< PUNCTUATOR -> 7, ";" >
+< KEYWORD -> 1, if >
+< PUNCTUATOR -> 7, "(" >
+< IDENTIFIER -> 2, arr >
+< PUNCTUATOR -> 7, "[" >
+< IDENTIFIER -> 2, mid >
+< PUNCTUATOR -> 7, "]" >
+< PUNCTUATOR -> 7, "==" >
+< IDENTIFIER -> 2, key >
+< PUNCTUATOR -> 7, ")" >
+< KEYWORD -> 1, return >
+< IDENTIFIER -> 2, mid >
+< PUNCTUATOR -> 7, ";" >
+< KEYWORD -> 1, if >
+< PUNCTUATOR -> 7, "(" >
+< IDENTIFIER -> 2, arr >
+< PUNCTUATOR -> 7, "[" >
+< IDENTIFIER -> 2, mid >
+< PUNCTUATOR -> 7, "]" >
+< PUNCTUATOR -> 7, ">" >
+< IDENTIFIER -> 2, key >
+< PUNCTUATOR -> 7, ")" >
+< KEYWORD -> 1, return >
+< IDENTIFIER -> 2, bSearch >
+< PUNCTUATOR -> 7, "(" >
+< IDENTIFIER -> 2, arr >
+< PUNCTUATOR -> 7, "," >
+< IDENTIFIER -> 2, l >
+< PUNCTUATOR -> 7, "," >
+< IDENTIFIER -> 2, mid >
+< PUNCTUATOR -> 7, "-" >
+< INTEGER_CONST -> 3, 1 >
+< PUNCTUATOR -> 7, "," >
+< IDENTIFIER -> 2, key >
+< PUNCTUATOR -> 7, ")" >
+< PUNCTUATOR -> 7, ";" >
+< KEYWORD -> 1, return >
+< IDENTIFIER -> 2, bSearch >
+< PUNCTUATOR -> 7, "(" >
+< IDENTIFIER -> 2, arr >
+< PUNCTUATOR -> 7, "," >
+< IDENTIFIER -> 2, mid >
+< PUNCTUATOR -> 7, "+" >
+< INTEGER_CONST -> 3, 1 >
+< PUNCTUATOR -> 7, "," >
+< IDENTIFIER -> 2, r >
+< PUNCTUATOR -> 7, "," >
+< IDENTIFIER -> 2, key >
+< PUNCTUATOR -> 7, ")" >
+< PUNCTUATOR -> 7, ";" >
+< PUNCTUATOR -> 7, "}" >
+< SINGLE_LINE_COMMENT_STARTS -> 11, // >
+ Return if element is not present in array< SINGLE_LINE_COMMENT_ENDS -> 13 >
+< KEYWORD -> 1, return >
+< INTEGER_CONST -> 3, -1 >
+< PUNCTUATOR -> 7, ";" >
+< PUNCTUATOR -> 7, "}" >
+< KEYWORD -> 1, int >
+< IDENTIFIER -> 2, main >
+< PUNCTUATOR -> 7, "(" >
+< PUNCTUATOR -> 7, ")" >
+< PUNCTUATOR -> 7, "{" >
+< SINGLE_LINE_COMMENT_STARTS -> 11, // >
+ Check for data types and constants< SINGLE_LINE_COMMENT_ENDS -> 13 >
+< KEYWORD -> 1, int >
+< IDENTIFIER -> 2, a >
+< PUNCTUATOR -> 7, "=" >
+< INTEGER_CONST -> 3, -15 >
+< PUNCTUATOR -> 7, ";" >
+< KEYWORD -> 1, float >
+< IDENTIFIER -> 2, PI >
+< PUNCTUATOR -> 7, "=" >
+< FLOAT_CONST -> 4, 3141.5E3 >
+< PUNCTUATOR -> 7, ";" >
+< KEYWORD -> 1, double >
+< IDENTIFIER -> 2, accuracy >
+< PUNCTUATOR -> 7, "=" >
+< FLOAT_CONST -> 4, .921e-03 >
+< PUNCTUATOR -> 7, ";" >
+< KEYWORD -> 1, char >
+< IDENTIFIER -> 2, ch >
+< PUNCTUATOR -> 7, "=" >
+< CHARACTER_CONST -> 5, 'S' >
+< PUNCTUATOR -> 7, ";" >
+< KEYWORD -> 1, char >
+< IDENTIFIER -> 2, str >
+< PUNCTUATOR -> 7, "[" >
+< INTEGER_CONST -> 3, 15 >
+< PUNCTUATOR -> 7, "]" >
+< PUNCTUATOR -> 7, "=" >
+< STRING_LITERAL -> 6, "Hello World!\t\n" >
+< PUNCTUATOR -> 7, ";" >
+< KEYWORD -> 1, int >
+< IDENTIFIER -> 2, arr >
+< PUNCTUATOR -> 7, "[" >
+< INTEGER_CONST -> 3, 5 >
+< PUNCTUATOR -> 7, "]" >
+< PUNCTUATOR -> 7, "=" >
+< PUNCTUATOR -> 7, "{" >
+< INTEGER_CONST -> 3, -2 >
+< PUNCTUATOR -> 7, "," >
+< INTEGER_CONST -> 3, 4 >
+< PUNCTUATOR -> 7, "," >
+< INTEGER_CONST -> 3, 5 >
+< PUNCTUATOR -> 7, "," >
+< INTEGER_CONST -> 3, 7 >
+< PUNCTUATOR -> 7, "," >
+< INTEGER_CONST -> 3, 10 >
+< PUNCTUATOR -> 7, "}" >
+< PUNCTUATOR -> 7, ";" >
+< IDENTIFIER -> 2, Employee >
+< IDENTIFIER -> 2, emp1 >
+< PUNCTUATOR -> 7, ";" >
+< MULTILINE_COMMENT_STARTS -> 8, /* >
+ Multi line comment. 
+    Search in a sorted array using:
+    Binary Search < MULTILINE_COMMENT_ENDS -> 10, */ >
+< SINGLE_LINE_COMMENT_STARTS -> 11, // >
+ Search for -2 in arr< SINGLE_LINE_COMMENT_ENDS -> 13 >
+< KEYWORD -> 1, int >
+< IDENTIFIER -> 2, loc >
+< PUNCTUATOR -> 7, "=" >
+< IDENTIFIER -> 2, bSearch >
+< PUNCTUATOR -> 7, "(" >
+< IDENTIFIER -> 2, arr >
+< PUNCTUATOR -> 7, "," >
+< INTEGER_CONST -> 3, 0 >
+< PUNCTUATOR -> 7, "," >
+< INTEGER_CONST -> 3, 4 >
+< PUNCTUATOR -> 7, "," >
+< INTEGER_CONST -> 3, -2 >
+< PUNCTUATOR -> 7, ")" >
+< PUNCTUATOR -> 7, ";" >
+< IDENTIFIER -> 2, printf >
+< PUNCTUATOR -> 7, "(" >
+< STRING_LITERAL -> 6, "Element %d found at position %d\n" >
+< PUNCTUATOR -> 7, "," >
+< IDENTIFIER -> 2, arr >
+< PUNCTUATOR -> 7, "[" >
+< INTEGER_CONST -> 3, 0 >
+< PUNCTUATOR -> 7, "]" >
+< PUNCTUATOR -> 7, "," >
+< IDENTIFIER -> 2, loc >
+< PUNCTUATOR -> 7, "+" >
+< INTEGER_CONST -> 3, 1 >
+< PUNCTUATOR -> 7, ")" >
+< PUNCTUATOR -> 7, ";" >
+< SINGLE_LINE_COMMENT_STARTS -> 11, // >
+ Loops< SINGLE_LINE_COMMENT_ENDS -> 13 >
+< IDENTIFIER -> 2, printf >
+< PUNCTUATOR -> 7, "(" >
+< STRING_LITERAL -> 6, "Demo **** pattern\n" >
+< PUNCTUATOR -> 7, ")" >
+< PUNCTUATOR -> 7, ";" >
+< KEYWORD -> 1, for >
+< PUNCTUATOR -> 7, "(" >
+< KEYWORD -> 1, int >
+< IDENTIFIER -> 2, i >
+< PUNCTUATOR -> 7, "=" >
+< INTEGER_CONST -> 3, 1 >
+< PUNCTUATOR -> 7, ";" >
+< IDENTIFIER -> 2, i >
+< PUNCTUATOR -> 7, "<=" >
+< INTEGER_CONST -> 3, 4 >
+< PUNCTUATOR -> 7, ";" >
+< IDENTIFIER -> 2, i >
+< PUNCTUATOR -> 7, "++" >
+< PUNCTUATOR -> 7, ")" >
+< PUNCTUATOR -> 7, "{" >
+< KEYWORD -> 1, for >
+< PUNCTUATOR -> 7, "(" >
+< KEYWORD -> 1, int >
+< IDENTIFIER -> 2, j >
+< PUNCTUATOR -> 7, "=" >
+< INTEGER_CONST -> 3, 1 >
+< PUNCTUATOR -> 7, ";" >
+< IDENTIFIER -> 2, j >
+< PUNCTUATOR -> 7, "<=" >
+< IDENTIFIER -> 2, i >
+< PUNCTUATOR -> 7, ";" >
+< IDENTIFIER -> 2, j >
+< PUNCTUATOR -> 7, "++" >
+< PUNCTUATOR -> 7, ")" >
+< PUNCTUATOR -> 7, "{" >
+< IDENTIFIER -> 2, printf >
+< PUNCTUATOR -> 7, "(" >
+< STRING_LITERAL -> 6, "*" >
+< PUNCTUATOR -> 7, ")" >
+< PUNCTUATOR -> 7, ";" >
+< PUNCTUATOR -> 7, "}" >
+< IDENTIFIER -> 2, printf >
+< PUNCTUATOR -> 7, "(" >
+< STRING_LITERAL -> 6, "\n" >
+< PUNCTUATOR -> 7, ")" >
+< PUNCTUATOR -> 7, ";" >
+< PUNCTUATOR -> 7, "}" >
+< SINGLE_LINE_COMMENT_STARTS -> 11, // >
+ Punctuators< SINGLE_LINE_COMMENT_ENDS -> 13 >
+< MULTILINE_COMMENT_STARTS -> 8, /* >
+ Guess the value < MULTILINE_COMMENT_ENDS -> 10, */ >
+< KEYWORD -> 1, int >
+< IDENTIFIER -> 2, tmpVal >
+< PUNCTUATOR -> 7, "=" >
+< INTEGER_CONST -> 3, 100 >
+< PUNCTUATOR -> 7, ";" >
+< IDENTIFIER -> 2, tmpVal >
+< PUNCTUATOR -> 7, "<<=" >
+< INTEGER_CONST -> 3, 2 >
+< PUNCTUATOR -> 7, ";" >
+< IDENTIFIER -> 2, tmpVal >
+< PUNCTUATOR -> 7, "+=" >
+< INTEGER_CONST -> 3, 321 >
+< PUNCTUATOR -> 7, ";" >
+< IDENTIFIER -> 2, tmpVal >
+< PUNCTUATOR -> 7, "-=" >
+< INTEGER_CONST -> 3, 21 >
+< PUNCTUATOR -> 7, ";" >
+< IDENTIFIER -> 2, tmpVal >
+< PUNCTUATOR -> 7, "&=" >
+< INTEGER_CONST -> 3, 5 >
+< PUNCTUATOR -> 7, ";" >
+< IDENTIFIER -> 2, printf >
+< PUNCTUATOR -> 7, "(" >
+< STRING_LITERAL -> 6, "tmpVal = %d\n" >
+< PUNCTUATOR -> 7, "," >
+< IDENTIFIER -> 2, tmpVal >
+< PUNCTUATOR -> 7, ")" >
+< PUNCTUATOR -> 7, ";" >
+< KEYWORD -> 1, return >
+< INTEGER_CONST -> 3, 0 >
+< PUNCTUATOR -> 7, ";" >
+< PUNCTUATOR -> 7, "}" >

@@ -1,0 +1,1424 @@
+
+--------------- Line Break: 6 ---------------
+
+--------------- Line Break: 7 ---------------
+| Production Rule: storage_class_specifier -to- static |
+| Production Rule: type_qualifier -to- const |
+| Production Rule: type_specifier -to- int |
+| Production Rule: declaration_specifiers -to- type_specifier declaration_specifiers_opt |
+| Production Rule: declaration_specifiers -to- type_qualifier declaration_specifiers_opt |
+| Production Rule: declaration_specifiers -to- storage_class_specifier declaration_specifiers_opt |
+| Production Rule: direct_declarator -to- IDENTIFIER |
+| Production Rule: declarator -to- pointer_opt direct_declarator |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: initializer -to- assignment_expression |
+| Production Rule: init_declarator -to- declarator = initializer |
+| Production Rule: init_declarator_list -to- init_declarator |
+| Production Rule: declaration -to- declaration_specifiers init_declarator_list_opt |
+| Production Rule: external_declaration -to- declaration |
+| Production Rule: translation_unit -to- external_declaration |
+
+--------------- Line Break: 8 ---------------
+| Production Rule: type_qualifier -to- volatile |
+| Production Rule: type_specifier -to- float |
+| Production Rule: declaration_specifiers -to- type_specifier declaration_specifiers_opt |
+| Production Rule: declaration_specifiers -to- type_qualifier declaration_specifiers_opt |
+| Production Rule: direct_declarator -to- IDENTIFIER |
+| Production Rule: declarator -to- pointer_opt direct_declarator |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: initializer -to- assignment_expression |
+| Production Rule: init_declarator -to- declarator = initializer |
+| Production Rule: init_declarator_list -to- init_declarator |
+| Production Rule: declaration -to- declaration_specifiers init_declarator_list_opt |
+| Production Rule: external_declaration -to- declaration |
+| Production Rule: translation_unit -to- translation_unit external_declaration |
+
+--------------- Line Break: 9 ---------------
+
+--------------- Line Break: 10 ---------------
+| Production Rule: type_specifier -to- int |
+| Production Rule: declaration_specifiers -to- type_specifier declaration_specifiers_opt |
+| Production Rule: direct_declarator -to- IDENTIFIER |
+| Production Rule: type_specifier -to- int |
+| Production Rule: declaration_specifiers -to- type_specifier declaration_specifiers_opt |
+| Production Rule: direct_declarator -to- IDENTIFIER |
+| Production Rule: direct_declarator -to- direct_declarator [type_qualifier_list_opt assignment_expression_opt] |
+| Production Rule: declarator -to- pointer_opt direct_declarator |
+| Production Rule: parameter_declaration -to- declaration_specifiers declarator|
+| Production Rule: parameter_list -to- parameter_declaration|
+| Production Rule: type_specifier -to- int |
+| Production Rule: declaration_specifiers -to- type_specifier declaration_specifiers_opt |
+| Production Rule: direct_declarator -to- IDENTIFIER |
+| Production Rule: declarator -to- pointer_opt direct_declarator |
+| Production Rule: parameter_declaration -to- declaration_specifiers declarator|
+| Production Rule: parameter_list -to- parameter_list, parameter_declaration|
+| Production Rule: type_specifier -to- int |
+| Production Rule: declaration_specifiers -to- type_specifier declaration_specifiers_opt |
+| Production Rule: direct_declarator -to- IDENTIFIER |
+| Production Rule: declarator -to- pointer_opt direct_declarator |
+| Production Rule: parameter_declaration -to- declaration_specifiers declarator|
+| Production Rule: parameter_list -to- parameter_list, parameter_declaration|
+| Production Rule: type_specifier -to- int |
+| Production Rule: declaration_specifiers -to- type_specifier declaration_specifiers_opt |
+| Production Rule: direct_declarator -to- IDENTIFIER |
+| Production Rule: declarator -to- pointer_opt direct_declarator |
+| Production Rule: parameter_declaration -to- declaration_specifiers declarator|
+| Production Rule: parameter_list -to- parameter_list, parameter_declaration|
+| Production Rule: parameter_type_list -to- parameter_list |
+| Production Rule: direct_declarator -to- direct_declarator (parameter_type_list) |
+
+--------------- Line Break: 11 ---------------
+| Production Rule: declarator -to- pointer_opt direct_declarator |
+
+--------------- Line Break: 12 ---------------
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- relational_expression >= shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: expression -to- assignment_expression |
+
+--------------- Line Break: 13 ---------------
+
+--------------- Line Break: 14 ---------------
+| Production Rule: type_specifier -to- int |
+| Production Rule: declaration_specifiers -to- type_specifier declaration_specifiers_opt |
+| Production Rule: direct_declarator -to- IDENTIFIER |
+| Production Rule: declarator -to- pointer_opt direct_declarator |
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- additive_expression - multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: expression -to- assignment_expression |
+| Production Rule: primary_expression -to- (expression) |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- multiplicative_expression mod cast_expression |
+| Production Rule: additive_expression -to- additive_expression + multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: initializer -to- assignment_expression |
+| Production Rule: init_declarator -to- declarator = initializer |
+| Production Rule: init_declarator_list -to- init_declarator |
+| Production Rule: declaration -to- declaration_specifiers init_declarator_list_opt |
+| Production Rule: block_item -to- declaration |
+| Production Rule: block_item_list  -to- block_item|
+
+--------------- Line Break: 15 ---------------
+
+--------------- Line Break: 16 ---------------
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: expression -to- assignment_expression |
+| Production Rule: postfix_expression -to- postfix_expression [expression] |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- equality_expression == relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: expression -to- assignment_expression |
+
+--------------- Line Break: 17 ---------------
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: expression -to- assignment_expression |
+| Production Rule: jump_statement -to- return expression_opt ; |
+| Production Rule: statement -to- jump_statement |
+
+--------------- Line Break: 18 ---------------
+
+--------------- Line Break: 19 ---------------
+| Production Rule: selection_statement -to- if(expression) statement |
+| Production Rule: statement -to- jump_statement |
+| Production Rule: block_item -to- statement |
+| Production Rule: block_item_list  -to- block_item_list block_item|
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: expression -to- assignment_expression |
+| Production Rule: postfix_expression -to- postfix_expression [expression] |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- relational_expression > shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: expression -to- assignment_expression |
+
+--------------- Line Break: 20 ---------------
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: argument_expression_list -to- argument_expression_list |
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: argument_expression_list -to- argument_expression_list, assignment_expression |
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- additive_expression - multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: argument_expression_list -to- argument_expression_list, assignment_expression |
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: argument_expression_list -to- argument_expression_list, assignment_expression |
+| Production Rule: postfix_expression -to- postfix_expression (argument_expression_list_opt) |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: expression -to- assignment_expression |
+| Production Rule: jump_statement -to- return expression_opt ; |
+| Production Rule: statement -to- jump_statement |
+
+--------------- Line Break: 21 ---------------
+
+--------------- Line Break: 22 ---------------
+| Production Rule: selection_statement -to- if(expression) statement |
+| Production Rule: statement -to- jump_statement |
+| Production Rule: block_item -to- statement |
+| Production Rule: block_item_list  -to- block_item_list block_item|
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: argument_expression_list -to- argument_expression_list |
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- additive_expression + multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: argument_expression_list -to- argument_expression_list, assignment_expression |
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: argument_expression_list -to- argument_expression_list, assignment_expression |
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: argument_expression_list -to- argument_expression_list, assignment_expression |
+| Production Rule: postfix_expression -to- postfix_expression (argument_expression_list_opt) |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: expression -to- assignment_expression |
+| Production Rule: jump_statement -to- return expression_opt ; |
+| Production Rule: statement -to- jump_statement |
+| Production Rule: block_item -to- statement |
+| Production Rule: block_item_list  -to- block_item_list block_item|
+
+--------------- Line Break: 23 ---------------
+| Production Rule: compound_statement -to- {block_item_list_opt}|
+| Production Rule: statement -to- compound_statement |
+
+--------------- Line Break: 24 ---------------
+
+--------------- Line Break: 25 ---------------
+| Production Rule: selection_statement -to- if(expression) statement |
+| Production Rule: statement -to- jump_statement |
+| Production Rule: block_item -to- statement |
+| Production Rule: block_item_list  -to- block_item|
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: expression -to- assignment_expression |
+| Production Rule: jump_statement -to- return expression_opt ; |
+| Production Rule: statement -to- jump_statement |
+| Production Rule: block_item -to- statement |
+| Production Rule: block_item_list  -to- block_item_list block_item|
+
+--------------- Line Break: 27 ---------------
+| Production Rule: compound_statement -to- {block_item_list_opt}|
+| Production Rule: function_definition -to- declaration_specifiers declarator declaration_list_opt compound_statement |
+| Production Rule: external_declaration -to- function_definition |
+| Production Rule: translation_unit -to- translation_unit external_declaration |
+
+--------------- Line Break: 28 ---------------
+
+--------------- Line Break: 29 ---------------
+| Production Rule: type_specifier -to- void |
+| Production Rule: declaration_specifiers -to- type_specifier declaration_specifiers_opt |
+| Production Rule: direct_declarator -to- IDENTIFIER |
+| Production Rule: direct_declarator -to- direct_declarator (identifier_list_opt) |
+
+--------------- Line Break: 30 ---------------
+| Production Rule: declarator -to- pointer_opt direct_declarator |
+
+--------------- Line Break: 31 ---------------
+| Production Rule: type_specifier -to- int |
+| Production Rule: declaration_specifiers -to- type_specifier declaration_specifiers_opt |
+| Production Rule: direct_declarator -to- IDENTIFIER |
+| Production Rule: declarator -to- pointer_opt direct_declarator |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: initializer -to- assignment_expression |
+| Production Rule: init_declarator -to- declarator = initializer |
+| Production Rule: init_declarator_list -to- init_declarator |
+| Production Rule: declaration -to- declaration_specifiers init_declarator_list_opt |
+| Production Rule: block_item -to- declaration |
+| Production Rule: block_item_list  -to- block_item|
+
+--------------- Line Break: 33 ---------------
+| Production Rule: type_specifier -to- float |
+| Production Rule: declaration_specifiers -to- type_specifier declaration_specifiers_opt |
+| Production Rule: direct_declarator -to- IDENTIFIER |
+| Production Rule: declarator -to- pointer_opt direct_declarator |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: initializer -to- assignment_expression |
+| Production Rule: init_declarator -to- declarator = initializer |
+| Production Rule: init_declarator_list -to- init_declarator |
+| Production Rule: declaration -to- declaration_specifiers init_declarator_list_opt |
+| Production Rule: block_item -to- declaration |
+| Production Rule: block_item_list  -to- block_item_list block_item|
+
+--------------- Line Break: 34 ---------------
+| Production Rule: type_specifier -to- double |
+| Production Rule: declaration_specifiers -to- type_specifier declaration_specifiers_opt |
+| Production Rule: direct_declarator -to- IDENTIFIER |
+| Production Rule: declarator -to- pointer_opt direct_declarator |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: initializer -to- assignment_expression |
+| Production Rule: init_declarator -to- declarator = initializer |
+| Production Rule: init_declarator_list -to- init_declarator |
+| Production Rule: declaration -to- declaration_specifiers init_declarator_list_opt |
+| Production Rule: block_item -to- declaration |
+| Production Rule: block_item_list  -to- block_item_list block_item|
+
+--------------- Line Break: 35 ---------------
+
+--------------- Line Break: 36 ---------------
+| Production Rule: type_specifier -to- char |
+| Production Rule: declaration_specifiers -to- type_specifier declaration_specifiers_opt |
+| Production Rule: direct_declarator -to- IDENTIFIER |
+| Production Rule: declarator -to- pointer_opt direct_declarator |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: initializer -to- assignment_expression |
+| Production Rule: init_declarator -to- declarator = initializer |
+| Production Rule: init_declarator_list -to- init_declarator |
+| Production Rule: declaration -to- declaration_specifiers init_declarator_list_opt |
+| Production Rule: block_item -to- declaration |
+| Production Rule: block_item_list  -to- block_item_list block_item|
+
+--------------- Line Break: 37 ---------------
+| Production Rule: type_specifier -to- char |
+| Production Rule: declaration_specifiers -to- type_specifier declaration_specifiers_opt |
+| Production Rule: direct_declarator -to- IDENTIFIER |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: direct_declarator -to- direct_declarator [type_qualifier_list_opt assignment_expression_opt] |
+| Production Rule: declarator -to- pointer_opt direct_declarator |
+| Production Rule: primary_expression -to- string_literal |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: initializer -to- assignment_expression |
+| Production Rule: init_declarator -to- declarator = initializer |
+| Production Rule: init_declarator_list -to- init_declarator |
+| Production Rule: declaration -to- declaration_specifiers init_declarator_list_opt |
+| Production Rule: block_item -to- declaration |
+| Production Rule: block_item_list  -to- block_item_list block_item|
+
+--------------- Line Break: 38 ---------------
+| Production Rule: type_specifier -to- int |
+| Production Rule: declaration_specifiers -to- type_specifier declaration_specifiers_opt |
+| Production Rule: direct_declarator -to- IDENTIFIER |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: direct_declarator -to- direct_declarator [type_qualifier_list_opt assignment_expression_opt] |
+| Production Rule: declarator -to- pointer_opt direct_declarator |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: initializer -to- assignment_expression |
+| Production Rule: initializer_list -to- designation_opt initializer |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: initializer -to- assignment_expression |
+| Production Rule: initializer_list -to- initializer_list, designation_opt initializer |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: initializer -to- assignment_expression |
+| Production Rule: initializer_list -to- initializer_list, designation_opt initializer |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: initializer -to- assignment_expression |
+| Production Rule: initializer_list -to- initializer_list, designation_opt initializer |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: initializer -to- assignment_expression |
+| Production Rule: initializer_list -to- initializer_list, designation_opt initializer |
+| Production Rule: initializer -to- {initializer_list} |
+| Production Rule: init_declarator -to- declarator = initializer |
+| Production Rule: init_declarator_list -to- init_declarator |
+| Production Rule: declaration -to- declaration_specifiers init_declarator_list_opt |
+| Production Rule: block_item -to- declaration |
+| Production Rule: block_item_list  -to- block_item_list block_item|
+
+--------------- Line Break: 39 ---------------
+
+--------------- Line Break: 40 ---------------
+
+--------------- Line Break: 43 ---------------
+
+--------------- Line Break: 44 ---------------
+| Production Rule: type_specifier -to- int |
+| Production Rule: declaration_specifiers -to- type_specifier declaration_specifiers_opt |
+| Production Rule: direct_declarator -to- IDENTIFIER |
+| Production Rule: declarator -to- pointer_opt direct_declarator |
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: argument_expression_list -to- argument_expression_list |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: argument_expression_list -to- argument_expression_list, assignment_expression |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: argument_expression_list -to- argument_expression_list, assignment_expression |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: argument_expression_list -to- argument_expression_list, assignment_expression |
+| Production Rule: postfix_expression -to- postfix_expression (argument_expression_list_opt) |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: initializer -to- assignment_expression |
+| Production Rule: init_declarator -to- declarator = initializer |
+| Production Rule: init_declarator_list -to- init_declarator |
+| Production Rule: declaration -to- declaration_specifiers init_declarator_list_opt |
+| Production Rule: block_item -to- declaration |
+| Production Rule: block_item_list  -to- block_item_list block_item|
+
+--------------- Line Break: 46 ---------------
+
+--------------- Line Break: 47 ---------------
+| Production Rule: type_specifier -to- int |
+| Production Rule: declaration_specifiers -to- type_specifier declaration_specifiers_opt |
+| Production Rule: direct_declarator -to- IDENTIFIER |
+| Production Rule: declarator -to- pointer_opt direct_declarator |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: initializer -to- assignment_expression |
+| Production Rule: init_declarator -to- declarator = initializer |
+| Production Rule: init_declarator_list -to- init_declarator |
+| Production Rule: declaration -to- declaration_specifiers init_declarator_list_opt |
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- relational_expression <= shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: expression -to- assignment_expression |
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: postfix_expression -to- postfix_expression++ |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: expression -to- assignment_expression |
+
+--------------- Line Break: 49 ---------------
+
+--------------- Line Break: 50 ---------------
+| Production Rule: type_specifier -to- int |
+| Production Rule: declaration_specifiers -to- type_specifier declaration_specifiers_opt |
+| Production Rule: direct_declarator -to- IDENTIFIER |
+| Production Rule: declarator -to- pointer_opt direct_declarator |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: initializer -to- assignment_expression |
+| Production Rule: init_declarator -to- declarator = initializer |
+| Production Rule: init_declarator_list -to- init_declarator |
+| Production Rule: declaration -to- declaration_specifiers init_declarator_list_opt |
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- relational_expression <= shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: expression -to- assignment_expression |
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: postfix_expression -to- postfix_expression++ |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: expression -to- assignment_expression |
+
+--------------- Line Break: 51 ---------------
+
+--------------- Line Break: 52 ---------------
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: primary_expression -to- string_literal |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: argument_expression_list -to- argument_expression_list |
+| Production Rule: postfix_expression -to- postfix_expression (argument_expression_list_opt) |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: expression -to- assignment_expression |
+| Production Rule: expression_statement -to- expression_opt; |
+| Production Rule: statement -to- expression_statement |
+| Production Rule: block_item -to- statement |
+| Production Rule: block_item_list  -to- block_item|
+
+--------------- Line Break: 53 ---------------
+| Production Rule: compound_statement -to- {block_item_list_opt}|
+| Production Rule: statement -to- compound_statement |
+| Production Rule: iteration_statement -to- for (declaration expression_opt; expression_opt) statement |
+| Production Rule: statement -to- iteration_statement |
+| Production Rule: block_item -to- statement |
+| Production Rule: block_item_list  -to- block_item|
+
+--------------- Line Break: 54 ---------------
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: primary_expression -to- string_literal |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: argument_expression_list -to- argument_expression_list |
+| Production Rule: postfix_expression -to- postfix_expression (argument_expression_list_opt) |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: expression -to- assignment_expression |
+| Production Rule: expression_statement -to- expression_opt; |
+| Production Rule: statement -to- expression_statement |
+| Production Rule: block_item -to- statement |
+| Production Rule: block_item_list  -to- block_item_list block_item|
+
+--------------- Line Break: 55 ---------------
+| Production Rule: compound_statement -to- {block_item_list_opt}|
+| Production Rule: statement -to- compound_statement |
+| Production Rule: iteration_statement -to- for (declaration expression_opt; expression_opt) statement |
+| Production Rule: statement -to- iteration_statement |
+| Production Rule: block_item -to- statement |
+| Production Rule: block_item_list  -to- block_item_list block_item|
+
+--------------- Line Break: 56 ---------------
+
+--------------- Line Break: 57 ---------------
+
+--------------- Line Break: 59 ---------------
+| Production Rule: type_specifier -to- int |
+| Production Rule: declaration_specifiers -to- type_specifier declaration_specifiers_opt |
+| Production Rule: direct_declarator -to- IDENTIFIER |
+| Production Rule: declarator -to- pointer_opt direct_declarator |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: initializer -to- assignment_expression |
+| Production Rule: init_declarator -to- declarator = initializer |
+| Production Rule: init_declarator_list -to- init_declarator |
+| Production Rule: declaration -to- declaration_specifiers init_declarator_list_opt |
+| Production Rule: block_item -to- declaration |
+| Production Rule: block_item_list  -to- block_item_list block_item|
+
+--------------- Line Break: 60 ---------------
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: assignment_operator -to- <<= |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: assignment_expression -to- unary_expression assignment_operator assignment_expression |
+| Production Rule: expression -to- assignment_expression |
+| Production Rule: expression_statement -to- expression_opt; |
+| Production Rule: statement -to- expression_statement |
+| Production Rule: block_item -to- statement |
+| Production Rule: block_item_list  -to- block_item_list block_item|
+
+--------------- Line Break: 61 ---------------
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: assignment_operator -to- += |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: assignment_expression -to- unary_expression assignment_operator assignment_expression |
+| Production Rule: expression -to- assignment_expression |
+| Production Rule: expression_statement -to- expression_opt; |
+| Production Rule: statement -to- expression_statement |
+| Production Rule: block_item -to- statement |
+| Production Rule: block_item_list  -to- block_item_list block_item|
+
+--------------- Line Break: 62 ---------------
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: assignment_operator -to- -= |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: assignment_expression -to- unary_expression assignment_operator assignment_expression |
+| Production Rule: expression -to- assignment_expression |
+| Production Rule: expression_statement -to- expression_opt; |
+| Production Rule: statement -to- expression_statement |
+| Production Rule: block_item -to- statement |
+| Production Rule: block_item_list  -to- block_item_list block_item|
+
+--------------- Line Break: 63 ---------------
+| Production Rule: primary_expression -to- IDENTIFIER |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: assignment_operator -to- &= |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: assignment_expression -to- unary_expression assignment_operator assignment_expression |
+| Production Rule: expression -to- assignment_expression |
+| Production Rule: expression_statement -to- expression_opt; |
+| Production Rule: statement -to- expression_statement |
+| Production Rule: block_item -to- statement |
+| Production Rule: block_item_list  -to- block_item_list block_item|
+
+--------------- Line Break: 64 ---------------
+
+--------------- Line Break: 65 ---------------
+| Production Rule: type_specifier -to- int |
+| Production Rule: declaration_specifiers -to- type_specifier declaration_specifiers_opt |
+| Production Rule: direct_declarator -to- IDENTIFIER |
+| Production Rule: declarator -to- pointer_opt direct_declarator |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- relational_expression > shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: expression -to- assignment_expression |
+| Production Rule: primary_expression -to- (expression) |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: expression -to- assignment_expression |
+| Production Rule: primary_expression -to- constant |
+| Production Rule: postfix_expression -to- primary_expression |
+| Production Rule: unary_expression -to- postfix_expression |
+| Production Rule: cast_expression -to- unary_expression |
+| Production Rule: multiplicative_expression -to- cast_expression |
+| Production Rule: additive_expression -to- multiplicative_expression |
+| Production Rule: shift_expression -to- additive_expression |
+| Production Rule: relational_expression -to- shift_expression |
+| Production Rule: equality_expression -to- relational_expression |
+| Production Rule: and_expression -to- equality_expression |
+| Production Rule: exclusive_or_expression -to- and_expression |
+| Production Rule: inclusive_or_expression -to- exclusive_or_expression |
+| Production Rule: logical_and_expression -to- inclusive_or_expression |
+| Production Rule: logical_or_expression -to- logical_and_expression |
+| Production Rule: conditional_expression -to- logical_or_expression |
+| Production Rule: conditional_expression -to- logical_or_expression ? expression : conditional_expression |
+| Production Rule: assignment_expression -to- conditional_expression |
+| Production Rule: initializer -to- assignment_expression |
+| Production Rule: init_declarator -to- declarator = initializer |
+| Production Rule: init_declarator_list -to- init_declarator |
+| Production Rule: declaration -to- declaration_specifiers init_declarator_list_opt |
+| Production Rule: block_item -to- declaration |
+| Production Rule: block_item_list  -to- block_item_list block_item|
+
+--------------- Line Break: 66 ---------------
+
+--------------- Line Break: 67 ---------------
+| Production Rule: compound_statement -to- {block_item_list_opt}|
+| Production Rule: function_definition -to- declaration_specifiers declarator declaration_list_opt compound_statement |
+| Production Rule: external_declaration -to- function_definition |
+| Production Rule: translation_unit -to- translation_unit external_declaration |

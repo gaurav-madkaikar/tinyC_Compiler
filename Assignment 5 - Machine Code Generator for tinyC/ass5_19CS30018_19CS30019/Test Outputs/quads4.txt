@@ -1,0 +1,145 @@
+==================================================================================================================================
+Important Points: 
+1. A function name may be declared twice
+ indicating the function involves a prototype declaration along with its definition
+2. 'param' indicates that the next variable is passed as a parameter to function
+3. The entry in the symbol table named as 'return' corresponds to the return type
+ of that function.
+==================================================================================================================================
+
+----------------------------------------------------------------------------------------------------------------------------------
+Three Adress Codes (TAC)
+----------------------------------------------------------------------------------------------------------------------------------
+
+main: 
+	   1:	t00 = 5
+	   2:	t01 = 5
+	   3:	param t02
+	   4:	t03 = call printf, 1
+	   5:	t04 = 0
+	   6:	i = t04
+	   7:	t06 = 5
+	   8:	if i < t06 goto 13
+	   9:	goto 38
+	  10:	t07 = i
+	  11:	i = i + 1
+	  12:	goto 7
+	  13:	t08 = 0
+	  14:	j = t08
+	  15:	t10 = 5
+	  16:	if j < t10 goto 21
+	  17:	goto 10
+	  18:	t11 = j
+	  19:	j = j + 1
+	  20:	goto 15
+	  21:	param t12
+	  22:	t13 = 1
+	  23:	t14 = i + t13
+	  24:	param t14
+	  25:	t15 = 1
+	  26:	t16 = j + t15
+	  27:	param t16
+	  28:	t17 = call printf, 3
+	  29:	param t18
+	  30:	t19 = i * 20
+	  31:	t21 = j * 4
+	  32:	t20 = t19 + t21
+	  33:	t22 = &t19
+	  34:	param t22
+	  35:	t23 = call scanf, 2
+	  36:	goto 18
+	  37:	goto 10
+	  38:	param t24
+	  39:	t25 = call printf, 1
+	  40:	t26 = 0
+	  41:	i = t26
+	  42:	if i < c goto 47
+	  43:	goto 65
+	  44:	t28 = i
+	  45:	i = i + 1
+	  46:	goto 42
+	  47:	t29 = 0
+	  48:	j = t29
+	  49:	if j < r goto 54
+	  50:	goto 62
+	  51:	t31 = j
+	  52:	j = j + 1
+	  53:	goto 49
+	  54:	param t32
+	  55:	t33 = j * 20
+	  56:	t35 = i * 4
+	  57:	t34 = t33 + t35
+	  58:	t36 = t33[t34]
+	  59:	param t36
+	  60:	t37 = call printf, 2
+	  61:	goto 51
+	  62:	param t38
+	  63:	t39 = call printf, 1
+	  64:	goto 44
+	  65:	t40 = 0
+	  66:	ret t40
+----------------------------------------------------------------------------------------------------------------------------------
+__________________________________________________________________________________________________________________________________
+Symbol Table: Global                                                             Parent: NULL
+__________________________________________________________________________________________________________________________________
+Name                Type                     Initial Value       Size        Offset      Nested
+----------------------------------------------------------------------------------------------------------------------------------
+main                integer                  -                   4           0           main
+__________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________
+Symbol Table: main                                                               Parent: Global
+__________________________________________________________________________________________________________________________________
+Name                Type                     Initial Value       Size        Offset      Nested
+----------------------------------------------------------------------------------------------------------------------------------
+return              integer                  -                   4           0           NULL
+matrix              arr(5, arr(5, integer))  -                   100         4           NULL
+t00                 integer                  5                   4           104         NULL
+t01                 integer                  5                   4           108         NULL
+i                   integer                  -                   4           112         NULL
+j                   integer                  -                   4           116         NULL
+r                   integer                  -                   4           120         NULL
+c                   integer                  -                   4           124         NULL
+printf              integer                  -                   4           128         NULL
+t02                 ptr(char)                "\nEnter matrix elements :\n"4           132         NULL
+t03                 integer                                      4           136         NULL
+t04                 integer                  0                   4           140         NULL
+t05                 integer                                      4           144         NULL
+t06                 integer                  5                   4           148         NULL
+t07                 integer                                      4           152         NULL
+t08                 integer                  0                   4           156         NULL
+t09                 integer                                      4           160         NULL
+t10                 integer                  5                   4           164         NULL
+t11                 integer                                      4           168         NULL
+t12                 ptr(char)                "Enter element [%d,%d] : "4           172         NULL
+t13                 integer                  1                   4           176         NULL
+t14                 integer                                      4           180         NULL
+t15                 integer                  1                   4           184         NULL
+t16                 integer                                      4           188         NULL
+t17                 integer                                      4           192         NULL
+scanf               integer                  -                   4           196         NULL
+t18                 ptr(char)                "%d"                4           200         NULL
+t19                 integer                                      4           204         NULL
+t20                 integer                                      4           208         NULL
+t21                 integer                                      4           212         NULL
+t22                 ptr(integer)                                 4           216         NULL
+t23                 integer                                      4           220         NULL
+t24                 ptr(char)                "\nTranspose Matrix is :"4           224         NULL
+t25                 integer                                      4           228         NULL
+t26                 integer                  0                   4           232         NULL
+t27                 integer                                      4           236         NULL
+t28                 integer                                      4           240         NULL
+t29                 integer                  0                   4           244         NULL
+t30                 integer                                      4           248         NULL
+t31                 integer                                      4           252         NULL
+t32                 ptr(char)                "%d\t"              4           256         NULL
+t33                 integer                                      4           260         NULL
+t34                 integer                                      4           264         NULL
+t35                 integer                                      4           268         NULL
+t36                 integer                                      4           272         NULL
+t37                 integer                                      4           276         NULL
+t38                 ptr(char)                "\n"                4           280         NULL
+t39                 integer                                      4           284         NULL
+t40                 integer                  0                   4           288         NULL
+__________________________________________________________________________________________________________________________________
+
